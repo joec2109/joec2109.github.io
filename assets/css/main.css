@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: rgba(255, 255, 255, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2037,6 +2037,7 @@ input, select, textarea {
 
 /* Image */
 
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
@@ -2159,7 +2160,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2207,6 +2208,55 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
+/* Feature Icons */
+
+ul.feature-icons {
+	list-style: none;
+    padding-left: 0;
+}
+
+	ul.feature-icons li {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
+		padding: 0.35em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 48%;
+	}
+
+		ul.feature-icons li:last-child {
+			padding-right: 0;
+		}
+
+		ul.feature-icons li .icon:before {
+			background: #85B7E1;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
+
+		ul.feature-icons li:before{
+			background: #85B7E1;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
 
 /* Labeled Icons */
 
@@ -2591,9 +2641,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #85B7E1;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2640,7 +2689,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 10rem;
+			width: 6.25em;
 		}
 
 /* Footer */
@@ -3077,8 +3126,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-color: #85B7E1;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;

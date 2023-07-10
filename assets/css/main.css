@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #2600ff;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #0011ff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2514,8 +2514,8 @@ ul.feature-icons {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #1100ff;
+			color: #1100ff !important;
 		}
 
 		input[type="submit"]:active,
@@ -2523,8 +2523,8 @@ ul.feature-icons {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #1100ff;
+			color: #1100ff !important;
 		}
 
 		input[type="submit"].icon,
@@ -2567,8 +2567,8 @@ ul.feature-icons {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #1100ff;
+			border-color: #1100ff;
 			color: #ffffff !important;
 		}
 
@@ -2576,16 +2576,16 @@ ul.feature-icons {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #1100ff;
+				border-color: #1100ff;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #1100ff;
+				border-color: #1100ff;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
